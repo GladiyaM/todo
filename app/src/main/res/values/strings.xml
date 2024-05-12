@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Last</string>
+    <string name="Header">New Task</string>
+    <string name="edtHeader">Edit Task</string>
+    <string name="HeaderMain">Tasks</string>
+    <string name="Title">Title</string>
+    <string name="content">Content</string>
+    <string name="HintTitle">Enter the Title..</string>
+    <string name="HintDesc">Enter the Description..</string>
+</resources>
