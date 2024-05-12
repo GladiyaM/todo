@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Last</string>
     <string name="Header">New Task</string>
+    <string name="Home">TASKIFY</string>
     <string name="edtHeader">Edit Task</string>
     <string name="HeaderMain">Tasks</string>
     <string name="Title">Title</string>

@@ -21,22 +21,35 @@
         android:orientation="horizontal"
         android:layout_marginTop="8dp">
 
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:buttonTint="@color/orange"
+            />
+
+
         <TextView
             android:id="@+id/titleTextVie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Title"
             android:fontFamily="@font/poppins"
+            android:layout_toEndOf="@id/checkbox"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Title"
             android:textColor="@color/orange"
             android:textSize="18sp"
-            android:textStyle="bold"/>
-        
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/updateButton"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/baseline_edit_24"/>
 
         <ImageView
@@ -44,6 +57,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
             android:src="@drawable/baseline_delete_outline_24"/>
             
     </RelativeLayout>
@@ -54,6 +68,7 @@
             android:layout_height="wrap_content"
             android:text="@string/content"
             android:fontFamily="@font/poppins"
+            android:paddingLeft="53dp"
             android:maxLines="3"
             android:layout_marginTop="4dp"/>
 
