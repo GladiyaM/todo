@@ -46,7 +46,6 @@ class NotesAdapter(private var notes : List<Note>, context: Context) :RecyclerVi
             refreshData(db.getAllNotes())
             Toast.makeText(holder.itemView.context, "Note Deleted", Toast.LENGTH_SHORT).show()
         }
-
     }
 
     fun refreshData(newNotes: List<Note>){
